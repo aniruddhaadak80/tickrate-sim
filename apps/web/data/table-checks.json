@@ -1,0 +1,461 @@
+[
+  {
+    "id": "skirmish-64",
+    "title": "Structural check of skirmish-64",
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "tableId": "skirmish-64",
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "states": 6,
+      "transitions": 8,
+      "entry": "lobby",
+      "tickrateHz": 64,
+      "issues": [],
+      "unreachable": [],
+      "deadEnds": [],
+      "terminal": [
+        "ended"
+      ],
+      "conflictingRules": []
+    }
+  },
+  {
+    "id": "skirmish-64-r2",
+    "title": "Structural check of skirmish-64-r2",
+    "table": {
+      "id": "skirmish-64-r2",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 256,
+          "maxTicks": 320,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "tableId": "skirmish-64-r2",
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "states": 6,
+      "transitions": 7,
+      "entry": "lobby",
+      "tickrateHz": 64,
+      "issues": [],
+      "unreachable": [],
+      "deadEnds": [],
+      "terminal": [
+        "ended"
+      ],
+      "conflictingRules": []
+    }
+  },
+  {
+    "id": "skirmish-broken",
+    "title": "Structural check of skirmish-broken",
+    "table": {
+      "id": "skirmish-broken",
+      "tickrateHz": 64,
+      "entry": "warmup",
+      "states": [
+        {
+          "name": "staging",
+          "terminal": false,
+          "description": ""
+        },
+        {
+          "name": "staging",
+          "terminal": false,
+          "description": "duplicate declaration"
+        },
+        {
+          "name": "playing",
+          "terminal": false,
+          "description": ""
+        },
+        {
+          "name": "orphaned",
+          "terminal": false,
+          "description": "nothing can reach this"
+        },
+        {
+          "name": "finished",
+          "terminal": true,
+          "description": ""
+        },
+        {
+          "name": "looping",
+          "terminal": false,
+          "description": ""
+        }
+      ],
+      "transitions": [
+        {
+          "id": "to_playing",
+          "source": "staging",
+          "target": "playing",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "to_playing_again",
+          "source": "staging",
+          "target": "playing",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "inverted_budget",
+          "source": "playing",
+          "target": "looping",
+          "minTicks": 90,
+          "maxTicks": 30,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "negative_budget",
+          "source": "looping",
+          "target": "playing",
+          "minTicks": -1,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "into_the_void",
+          "source": "playing",
+          "target": "nowhere",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "out_of_the_end",
+          "source": "finished",
+          "target": "playing",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "tableId": "skirmish-broken",
+      "ok": false,
+      "errors": 7,
+      "warnings": 6,
+      "states": 5,
+      "transitions": 6,
+      "entry": "warmup",
+      "tickrateHz": 64,
+      "issues": [
+        {
+          "code": "AMBIGUOUS_EDGE",
+          "severity": "error",
+          "subject": "to_playing",
+          "message": "'staging' -> 'playing' is declared 2 times (to_playing, to_playing_again); a trace cannot say which rule it satisfied"
+        },
+        {
+          "code": "BUDGET_INVERTED",
+          "severity": "error",
+          "subject": "inverted_budget",
+          "message": "maxTicks (30) is below minTicks (90); no tick count can satisfy this rule"
+        },
+        {
+          "code": "DUPLICATE_STATE",
+          "severity": "error",
+          "subject": "staging",
+          "message": "state 'staging' is declared more than once; the last declaration wins silently"
+        },
+        {
+          "code": "ENTRY_UNDECLARED",
+          "severity": "error",
+          "subject": "warmup",
+          "message": "entry state 'warmup' is not declared in states"
+        },
+        {
+          "code": "NEGATIVE_BUDGET",
+          "severity": "error",
+          "subject": "negative_budget",
+          "message": "minTicks is -1; a negative tick count is meaningless"
+        },
+        {
+          "code": "TERMINAL_WITH_EXIT",
+          "severity": "error",
+          "subject": "finished",
+          "message": "state 'finished' is terminal yet declares 1 outgoing transition(s)"
+        },
+        {
+          "code": "UNKNOWN_TARGET",
+          "severity": "error",
+          "subject": "into_the_void",
+          "message": "transition 'playing' -> 'nowhere' enters undeclared state 'nowhere'"
+        },
+        {
+          "code": "DEAD_END",
+          "severity": "warn",
+          "subject": "orphaned",
+          "message": "state 'orphaned' has no outgoing transition but is not marked terminal, so a trace that reaches it can never finish"
+        },
+        {
+          "code": "UNREACHABLE_STATE",
+          "severity": "warn",
+          "subject": "finished",
+          "message": "state 'finished' cannot be reached from entry 'warmup'; it is dead design"
+        },
+        {
+          "code": "UNREACHABLE_STATE",
+          "severity": "warn",
+          "subject": "looping",
+          "message": "state 'looping' cannot be reached from entry 'warmup'; it is dead design"
+        },
+        {
+          "code": "UNREACHABLE_STATE",
+          "severity": "warn",
+          "subject": "orphaned",
+          "message": "state 'orphaned' cannot be reached from entry 'warmup'; it is dead design"
+        },
+        {
+          "code": "UNREACHABLE_STATE",
+          "severity": "warn",
+          "subject": "playing",
+          "message": "state 'playing' cannot be reached from entry 'warmup'; it is dead design"
+        },
+        {
+          "code": "UNREACHABLE_STATE",
+          "severity": "warn",
+          "subject": "staging",
+          "message": "state 'staging' cannot be reached from entry 'warmup'; it is dead design"
+        }
+      ],
+      "unreachable": [
+        "finished",
+        "looping",
+        "orphaned",
+        "playing",
+        "staging"
+      ],
+      "deadEnds": [
+        "orphaned"
+      ],
+      "terminal": [
+        "finished"
+      ],
+      "conflictingRules": [
+        "to_playing",
+        "to_playing_again"
+      ]
+    }
+  }
+]

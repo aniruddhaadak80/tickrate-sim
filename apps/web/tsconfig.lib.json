@@ -1,0 +1,16 @@
+{
+  "$comment": "Compiles the browser engine mirror to plain JS so node:test can import it without a TypeScript loader. Only lib/engine.ts and its type-only imports end up here, so the emitted JS has no runtime dependencies.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist/lib",
+    "rootDir": "lib",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "declaration": false,
+    "incremental": false,
+    "jsx": "preserve",
+    "paths": {}
+  },
+  "include": ["lib/engine.ts"]
+}

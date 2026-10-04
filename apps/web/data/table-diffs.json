@@ -1,0 +1,294 @@
+[
+  {
+    "id": "skirmish-64-vs-r2",
+    "title": "skirmish-64 to skirmish-64-r2",
+    "before": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "after": {
+      "id": "skirmish-64-r2",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 256,
+          "maxTicks": 320,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "fromId": "skirmish-64",
+      "toId": "skirmish-64-r2",
+      "statesAdded": [],
+      "statesRemoved": [],
+      "rulesAdded": [],
+      "rulesRemoved": [
+        "abandon_match"
+      ],
+      "rulesChanged": [
+        "start_match"
+      ],
+      "unchanged": 6,
+      "tickrateBefore": 64,
+      "tickrateAfter": 64,
+      "tickrateChanged": false,
+      "changes": [
+        {
+          "kind": "modified",
+          "subject": "rule:countdown->live (start_match)",
+          "breaking": true,
+          "fields": [
+            "maxTicks",
+            "minTicks"
+          ],
+          "before": {
+            "id": "start_match",
+            "source": "countdown",
+            "target": "live",
+            "minTicks": 192,
+            "maxTicks": 192,
+            "repeatable": true,
+            "guard": ""
+          },
+          "after": {
+            "id": "start_match",
+            "source": "countdown",
+            "target": "live",
+            "minTicks": 256,
+            "maxTicks": 320,
+            "repeatable": true,
+            "guard": ""
+          },
+          "reason": "minTicks moved from 192 to 256, which rejects traces that used to pass"
+        },
+        {
+          "kind": "removed",
+          "subject": "rule:lobby->ended (abandon_match)",
+          "breaking": true,
+          "fields": [
+            "id",
+            "source",
+            "target",
+            "minTicks",
+            "maxTicks"
+          ],
+          "before": {
+            "id": "abandon_match",
+            "source": "lobby",
+            "target": "ended",
+            "minTicks": 0,
+            "maxTicks": null,
+            "repeatable": false,
+            "guard": ""
+          },
+          "after": null,
+          "reason": "edge deleted; any trace that took it now fails with UNDECLARED_TRANSITION"
+        }
+      ],
+      "breaking": [
+        "rule:countdown->live (start_match)",
+        "rule:lobby->ended (abandon_match)"
+      ],
+      "compatible": false
+    }
+  }
+]

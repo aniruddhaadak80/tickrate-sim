@@ -1,0 +1,308 @@
+[
+  {
+    "id": "skirmish-64",
+    "tickrateHz": 64,
+    "entry": "lobby",
+    "states": [
+      {
+        "name": "lobby",
+        "terminal": false,
+        "description": "waiting for players to ready up"
+      },
+      {
+        "name": "countdown",
+        "terminal": false,
+        "description": "fixed pre-match countdown"
+      },
+      {
+        "name": "live",
+        "terminal": false,
+        "description": "match running"
+      },
+      {
+        "name": "resimulating",
+        "terminal": false,
+        "description": "rollback re-simulation"
+      },
+      {
+        "name": "paused",
+        "terminal": false,
+        "description": "administrative pause"
+      },
+      {
+        "name": "ended",
+        "terminal": true,
+        "description": "terminal"
+      }
+    ],
+    "transitions": [
+      {
+        "id": "begin_countdown",
+        "source": "lobby",
+        "target": "countdown",
+        "minTicks": 0,
+        "maxTicks": 180,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "start_match",
+        "source": "countdown",
+        "target": "live",
+        "minTicks": 192,
+        "maxTicks": 192,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "begin_rollback",
+        "source": "live",
+        "target": "resimulating",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "finish_resim",
+        "source": "resimulating",
+        "target": "live",
+        "minTicks": 1,
+        "maxTicks": 10,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "pause_match",
+        "source": "live",
+        "target": "paused",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": false,
+        "guard": ""
+      },
+      {
+        "id": "resume_match",
+        "source": "paused",
+        "target": "live",
+        "minTicks": 30,
+        "maxTicks": 9600,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "end_match",
+        "source": "live",
+        "target": "ended",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": false,
+        "guard": ""
+      },
+      {
+        "id": "abandon_match",
+        "source": "lobby",
+        "target": "ended",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": false,
+        "guard": ""
+      }
+    ]
+  },
+  {
+    "id": "skirmish-64-r2",
+    "tickrateHz": 64,
+    "entry": "lobby",
+    "states": [
+      {
+        "name": "lobby",
+        "terminal": false,
+        "description": "waiting for players to ready up"
+      },
+      {
+        "name": "countdown",
+        "terminal": false,
+        "description": "fixed pre-match countdown"
+      },
+      {
+        "name": "live",
+        "terminal": false,
+        "description": "match running"
+      },
+      {
+        "name": "resimulating",
+        "terminal": false,
+        "description": "rollback re-simulation"
+      },
+      {
+        "name": "paused",
+        "terminal": false,
+        "description": "administrative pause"
+      },
+      {
+        "name": "ended",
+        "terminal": true,
+        "description": "terminal"
+      }
+    ],
+    "transitions": [
+      {
+        "id": "begin_countdown",
+        "source": "lobby",
+        "target": "countdown",
+        "minTicks": 0,
+        "maxTicks": 180,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "start_match",
+        "source": "countdown",
+        "target": "live",
+        "minTicks": 256,
+        "maxTicks": 320,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "begin_rollback",
+        "source": "live",
+        "target": "resimulating",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "finish_resim",
+        "source": "resimulating",
+        "target": "live",
+        "minTicks": 1,
+        "maxTicks": 10,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "pause_match",
+        "source": "live",
+        "target": "paused",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": false,
+        "guard": ""
+      },
+      {
+        "id": "resume_match",
+        "source": "paused",
+        "target": "live",
+        "minTicks": 30,
+        "maxTicks": 9600,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "end_match",
+        "source": "live",
+        "target": "ended",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": false,
+        "guard": ""
+      }
+    ]
+  },
+  {
+    "id": "skirmish-broken",
+    "tickrateHz": 64,
+    "entry": "warmup",
+    "states": [
+      {
+        "name": "staging",
+        "terminal": false,
+        "description": ""
+      },
+      {
+        "name": "staging",
+        "terminal": false,
+        "description": "duplicate declaration"
+      },
+      {
+        "name": "playing",
+        "terminal": false,
+        "description": ""
+      },
+      {
+        "name": "orphaned",
+        "terminal": false,
+        "description": "nothing can reach this"
+      },
+      {
+        "name": "finished",
+        "terminal": true,
+        "description": ""
+      },
+      {
+        "name": "looping",
+        "terminal": false,
+        "description": ""
+      }
+    ],
+    "transitions": [
+      {
+        "id": "to_playing",
+        "source": "staging",
+        "target": "playing",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "to_playing_again",
+        "source": "staging",
+        "target": "playing",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "inverted_budget",
+        "source": "playing",
+        "target": "looping",
+        "minTicks": 90,
+        "maxTicks": 30,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "negative_budget",
+        "source": "looping",
+        "target": "playing",
+        "minTicks": -1,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "into_the_void",
+        "source": "playing",
+        "target": "nowhere",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      },
+      {
+        "id": "out_of_the_end",
+        "source": "finished",
+        "target": "playing",
+        "minTicks": 0,
+        "maxTicks": null,
+        "repeatable": true,
+        "guard": ""
+      }
+    ]
+  }
+]

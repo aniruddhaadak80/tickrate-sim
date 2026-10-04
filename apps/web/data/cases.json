@@ -1,0 +1,5073 @@
+[
+  {
+    "id": "clean-64hz",
+    "title": "A clean 2-minute match on rate",
+    "column": "replayed",
+    "severity": "clean",
+    "summary": "Countdown, one rollback, clean finish. 64 Hz held to the tick.",
+    "trace": {
+      "id": "clean-64hz",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 7680,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 1200,
+          "target": "resimulating",
+          "note": ""
+        },
+        {
+          "tick": 1206,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 4800,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        },
+        {
+          "tick": 1024,
+          "ms": 16000
+        },
+        {
+          "tick": 1088,
+          "ms": 17000
+        },
+        {
+          "tick": 1152,
+          "ms": 18000
+        },
+        {
+          "tick": 1216,
+          "ms": 19000
+        },
+        {
+          "tick": 1280,
+          "ms": 20000
+        },
+        {
+          "tick": 1344,
+          "ms": 21000
+        },
+        {
+          "tick": 1408,
+          "ms": 22000
+        },
+        {
+          "tick": 1472,
+          "ms": 23000
+        },
+        {
+          "tick": 1536,
+          "ms": 24000
+        },
+        {
+          "tick": 1600,
+          "ms": 25000
+        },
+        {
+          "tick": 1664,
+          "ms": 26000
+        },
+        {
+          "tick": 1728,
+          "ms": 27000
+        },
+        {
+          "tick": 1792,
+          "ms": 28000
+        },
+        {
+          "tick": 1856,
+          "ms": 29000
+        },
+        {
+          "tick": 1920,
+          "ms": 30000
+        },
+        {
+          "tick": 1984,
+          "ms": 31000
+        },
+        {
+          "tick": 2048,
+          "ms": 32000
+        },
+        {
+          "tick": 2112,
+          "ms": 33000
+        },
+        {
+          "tick": 2176,
+          "ms": 34000
+        },
+        {
+          "tick": 2240,
+          "ms": 35000
+        },
+        {
+          "tick": 2304,
+          "ms": 36000
+        },
+        {
+          "tick": 2368,
+          "ms": 37000
+        },
+        {
+          "tick": 2432,
+          "ms": 38000
+        },
+        {
+          "tick": 2496,
+          "ms": 39000
+        },
+        {
+          "tick": 2560,
+          "ms": 40000
+        },
+        {
+          "tick": 2624,
+          "ms": 41000
+        },
+        {
+          "tick": 2688,
+          "ms": 42000
+        },
+        {
+          "tick": 2752,
+          "ms": 43000
+        },
+        {
+          "tick": 2816,
+          "ms": 44000
+        },
+        {
+          "tick": 2880,
+          "ms": 45000
+        },
+        {
+          "tick": 2944,
+          "ms": 46000
+        },
+        {
+          "tick": 3008,
+          "ms": 47000
+        },
+        {
+          "tick": 3072,
+          "ms": 48000
+        },
+        {
+          "tick": 3136,
+          "ms": 49000
+        },
+        {
+          "tick": 3200,
+          "ms": 50000
+        },
+        {
+          "tick": 3264,
+          "ms": 51000
+        },
+        {
+          "tick": 3328,
+          "ms": 52000
+        },
+        {
+          "tick": 3392,
+          "ms": 53000
+        },
+        {
+          "tick": 3456,
+          "ms": 54000
+        },
+        {
+          "tick": 3520,
+          "ms": 55000
+        },
+        {
+          "tick": 3584,
+          "ms": 56000
+        },
+        {
+          "tick": 3648,
+          "ms": 57000
+        },
+        {
+          "tick": 3712,
+          "ms": 58000
+        },
+        {
+          "tick": 3776,
+          "ms": 59000
+        },
+        {
+          "tick": 3840,
+          "ms": 60000
+        },
+        {
+          "tick": 3904,
+          "ms": 61000
+        },
+        {
+          "tick": 3968,
+          "ms": 62000
+        },
+        {
+          "tick": 4032,
+          "ms": 63000
+        },
+        {
+          "tick": 4096,
+          "ms": 64000
+        },
+        {
+          "tick": 4160,
+          "ms": 65000
+        },
+        {
+          "tick": 4224,
+          "ms": 66000
+        },
+        {
+          "tick": 4288,
+          "ms": 67000
+        },
+        {
+          "tick": 4352,
+          "ms": 68000
+        },
+        {
+          "tick": 4416,
+          "ms": 69000
+        },
+        {
+          "tick": 4480,
+          "ms": 70000
+        },
+        {
+          "tick": 4544,
+          "ms": 71000
+        },
+        {
+          "tick": 4608,
+          "ms": 72000
+        },
+        {
+          "tick": 4672,
+          "ms": 73000
+        },
+        {
+          "tick": 4736,
+          "ms": 74000
+        },
+        {
+          "tick": 4800,
+          "ms": 75000
+        },
+        {
+          "tick": 4864,
+          "ms": 76000
+        },
+        {
+          "tick": 4928,
+          "ms": 77000
+        },
+        {
+          "tick": 4992,
+          "ms": 78000
+        },
+        {
+          "tick": 5056,
+          "ms": 79000
+        },
+        {
+          "tick": 5120,
+          "ms": 80000
+        },
+        {
+          "tick": 5184,
+          "ms": 81000
+        },
+        {
+          "tick": 5248,
+          "ms": 82000
+        },
+        {
+          "tick": 5312,
+          "ms": 83000
+        },
+        {
+          "tick": 5376,
+          "ms": 84000
+        },
+        {
+          "tick": 5440,
+          "ms": 85000
+        },
+        {
+          "tick": 5504,
+          "ms": 86000
+        },
+        {
+          "tick": 5568,
+          "ms": 87000
+        },
+        {
+          "tick": 5632,
+          "ms": 88000
+        },
+        {
+          "tick": 5696,
+          "ms": 89000
+        },
+        {
+          "tick": 5760,
+          "ms": 90000
+        },
+        {
+          "tick": 5824,
+          "ms": 91000
+        },
+        {
+          "tick": 5888,
+          "ms": 92000
+        },
+        {
+          "tick": 5952,
+          "ms": 93000
+        },
+        {
+          "tick": 6016,
+          "ms": 94000
+        },
+        {
+          "tick": 6080,
+          "ms": 95000
+        },
+        {
+          "tick": 6144,
+          "ms": 96000
+        },
+        {
+          "tick": 6208,
+          "ms": 97000
+        },
+        {
+          "tick": 6272,
+          "ms": 98000
+        },
+        {
+          "tick": 6336,
+          "ms": 99000
+        },
+        {
+          "tick": 6400,
+          "ms": 100000
+        },
+        {
+          "tick": 6464,
+          "ms": 101000
+        },
+        {
+          "tick": 6528,
+          "ms": 102000
+        },
+        {
+          "tick": 6592,
+          "ms": 103000
+        },
+        {
+          "tick": 6656,
+          "ms": 104000
+        },
+        {
+          "tick": 6720,
+          "ms": 105000
+        },
+        {
+          "tick": 6784,
+          "ms": 106000
+        },
+        {
+          "tick": 6848,
+          "ms": 107000
+        },
+        {
+          "tick": 6912,
+          "ms": 108000
+        },
+        {
+          "tick": 6976,
+          "ms": 109000
+        },
+        {
+          "tick": 7040,
+          "ms": 110000
+        },
+        {
+          "tick": 7104,
+          "ms": 111000
+        },
+        {
+          "tick": 7168,
+          "ms": 112000
+        },
+        {
+          "tick": 7232,
+          "ms": 113000
+        },
+        {
+          "tick": 7296,
+          "ms": 114000
+        },
+        {
+          "tick": 7360,
+          "ms": 115000
+        },
+        {
+          "tick": 7424,
+          "ms": 116000
+        },
+        {
+          "tick": 7488,
+          "ms": 117000
+        },
+        {
+          "tick": 7552,
+          "ms": 118000
+        },
+        {
+          "tick": 7616,
+          "ms": 119000
+        },
+        {
+          "tick": 7680,
+          "ms": 120000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "clean-64hz",
+        "tableId": "skirmish-64",
+        "ok": true,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 7680,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 7680,
+        "eventsObserved": 5,
+        "violations": [],
+        "firstViolation": null,
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 1200,
+            "state": "resimulating",
+            "ticksInState": 984,
+            "via": "begin_rollback",
+            "viaIndex": 2,
+            "legal": true
+          },
+          {
+            "tick": 1206,
+            "state": "live",
+            "ticksInState": 6,
+            "via": "finish_resim",
+            "viaIndex": 3,
+            "legal": true
+          },
+          {
+            "tick": 4800,
+            "state": "ended",
+            "ticksInState": 3594,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 5,
+          "ratio": 0.625,
+          "uncovered": [
+            "abandon_match",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "clean-64hz",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 984,
+            "observedMax": 984,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 1,
+            "observedMin": 6,
+            "observedMax": 6,
+            "utilisation": 0.6,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 3594,
+            "observedMax": 3594,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 3
+      },
+      "tickrate": {
+        "traceId": "clean-64hz",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 120,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 7680 ticks in 120000 ms"
+      }
+    }
+  },
+  {
+    "id": "rollback-storm",
+    "title": "Rollback re-simulation overruns its budget",
+    "column": "blocking",
+    "severity": "major",
+    "summary": "finish_resim is allowed 10 ticks; late inputs stretch it to 31.",
+    "trace": {
+      "id": "rollback-storm",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 1920,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 300,
+          "target": "resimulating",
+          "note": ""
+        },
+        {
+          "tick": 331,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 420,
+          "target": "resimulating",
+          "note": ""
+        },
+        {
+          "tick": 470,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 600,
+          "target": "resimulating",
+          "note": ""
+        },
+        {
+          "tick": 688,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 900,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        },
+        {
+          "tick": 1024,
+          "ms": 16000
+        },
+        {
+          "tick": 1088,
+          "ms": 17000
+        },
+        {
+          "tick": 1152,
+          "ms": 18000
+        },
+        {
+          "tick": 1216,
+          "ms": 19000
+        },
+        {
+          "tick": 1280,
+          "ms": 20000
+        },
+        {
+          "tick": 1344,
+          "ms": 21000
+        },
+        {
+          "tick": 1408,
+          "ms": 22000
+        },
+        {
+          "tick": 1472,
+          "ms": 23000
+        },
+        {
+          "tick": 1536,
+          "ms": 24000
+        },
+        {
+          "tick": 1600,
+          "ms": 25000
+        },
+        {
+          "tick": 1664,
+          "ms": 26000
+        },
+        {
+          "tick": 1728,
+          "ms": 27000
+        },
+        {
+          "tick": 1792,
+          "ms": 28000
+        },
+        {
+          "tick": 1856,
+          "ms": 29000
+        },
+        {
+          "tick": 1920,
+          "ms": 30000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "rollback-storm",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 1920,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 1920,
+        "eventsObserved": 9,
+        "violations": [
+          {
+            "code": "BUDGET_OVERRUN",
+            "tick": 331,
+            "state": "resimulating",
+            "target": "live",
+            "rule": "finish_resim",
+            "ticksInState": 31,
+            "message": "rule 'finish_resim' allows at most 10 tick(s) in 'resimulating'; 31 elapsed"
+          },
+          {
+            "code": "BUDGET_OVERRUN",
+            "tick": 470,
+            "state": "resimulating",
+            "target": "live",
+            "rule": "finish_resim",
+            "ticksInState": 50,
+            "message": "rule 'finish_resim' allows at most 10 tick(s) in 'resimulating'; 50 elapsed"
+          },
+          {
+            "code": "BUDGET_OVERRUN",
+            "tick": 688,
+            "state": "resimulating",
+            "target": "live",
+            "rule": "finish_resim",
+            "ticksInState": 88,
+            "message": "rule 'finish_resim' allows at most 10 tick(s) in 'resimulating'; 88 elapsed"
+          }
+        ],
+        "firstViolation": {
+          "code": "BUDGET_OVERRUN",
+          "tick": 331,
+          "state": "resimulating",
+          "target": "live",
+          "rule": "finish_resim",
+          "ticksInState": 31,
+          "message": "rule 'finish_resim' allows at most 10 tick(s) in 'resimulating'; 31 elapsed"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 300,
+            "state": "resimulating",
+            "ticksInState": 84,
+            "via": "begin_rollback",
+            "viaIndex": 2,
+            "legal": true
+          },
+          {
+            "tick": 331,
+            "state": "live",
+            "ticksInState": 31,
+            "via": "finish_resim",
+            "viaIndex": 3,
+            "legal": false
+          },
+          {
+            "tick": 420,
+            "state": "resimulating",
+            "ticksInState": 89,
+            "via": "begin_rollback",
+            "viaIndex": 2,
+            "legal": true
+          },
+          {
+            "tick": 470,
+            "state": "live",
+            "ticksInState": 50,
+            "via": "finish_resim",
+            "viaIndex": 3,
+            "legal": false
+          },
+          {
+            "tick": 600,
+            "state": "resimulating",
+            "ticksInState": 130,
+            "via": "begin_rollback",
+            "viaIndex": 2,
+            "legal": true
+          },
+          {
+            "tick": 688,
+            "state": "live",
+            "ticksInState": 88,
+            "via": "finish_resim",
+            "viaIndex": 3,
+            "legal": false
+          },
+          {
+            "tick": 900,
+            "state": "ended",
+            "ticksInState": 212,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 5,
+          "ratio": 0.625,
+          "uncovered": [
+            "abandon_match",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "rollback-storm",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 3,
+            "observedMin": 84,
+            "observedMax": 130,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 3,
+            "observedMin": 31,
+            "observedMax": 88,
+            "utilisation": 8.8,
+            "verdict": "slower_than_declared"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 212,
+            "observedMax": 212,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 3,
+        "underruns": 0,
+        "unused": 3
+      },
+      "tickrate": {
+        "traceId": "rollback-storm",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 30,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 1920 ticks in 30000 ms"
+      }
+    }
+  },
+  {
+    "id": "undeclared-skip",
+    "title": "Server ends a match from the countdown",
+    "column": "blocking",
+    "severity": "critical",
+    "summary": "countdown -> ended has no rule anywhere in the table.",
+    "trace": {
+      "id": "undeclared-skip",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 600,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 240,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "undeclared-skip",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 600,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 600,
+        "eventsObserved": 2,
+        "violations": [
+          {
+            "code": "UNDECLARED_TRANSITION",
+            "tick": 240,
+            "state": "countdown",
+            "target": "ended",
+            "rule": null,
+            "ticksInState": 216,
+            "message": "no rule permits 'countdown' -> 'ended'; the table allows 'live'"
+          }
+        ],
+        "firstViolation": {
+          "code": "UNDECLARED_TRANSITION",
+          "tick": 240,
+          "state": "countdown",
+          "target": "ended",
+          "rule": null,
+          "ticksInState": 216,
+          "message": "no rule permits 'countdown' -> 'ended'; the table allows 'live'"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 240,
+            "state": "ended",
+            "ticksInState": 216,
+            "via": null,
+            "viaIndex": null,
+            "legal": false
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 1,
+          "ratio": 0.125,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "end_match",
+            "finish_resim",
+            "pause_match",
+            "resume_match",
+            "start_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "undeclared-skip",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 7
+      },
+      "tickrate": {
+        "traceId": "undeclared-skip",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 9,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 576 ticks in 9000 ms"
+      }
+    }
+  },
+  {
+    "id": "countdown-too-fast",
+    "title": "Countdown fires 2.7 s early",
+    "column": "blocking",
+    "severity": "major",
+    "summary": "start_match requires 192 ticks in countdown; it took 6.",
+    "trace": {
+      "id": "countdown-too-fast",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 1200,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 30,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 900,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        },
+        {
+          "tick": 1024,
+          "ms": 16000
+        },
+        {
+          "tick": 1088,
+          "ms": 17000
+        },
+        {
+          "tick": 1152,
+          "ms": 18000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "countdown-too-fast",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 1200,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 1200,
+        "eventsObserved": 3,
+        "violations": [
+          {
+            "code": "BUDGET_UNDERRUN",
+            "tick": 30,
+            "state": "countdown",
+            "target": "live",
+            "rule": "start_match",
+            "ticksInState": 6,
+            "message": "rule 'start_match' requires 192 tick(s) in 'countdown' before it may fire; only 6 elapsed"
+          }
+        ],
+        "firstViolation": {
+          "code": "BUDGET_UNDERRUN",
+          "tick": 30,
+          "state": "countdown",
+          "target": "live",
+          "rule": "start_match",
+          "ticksInState": 6,
+          "message": "rule 'start_match' requires 192 tick(s) in 'countdown' before it may fire; only 6 elapsed"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 30,
+            "state": "live",
+            "ticksInState": 6,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": false
+          },
+          {
+            "tick": 900,
+            "state": "ended",
+            "ticksInState": 870,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 3,
+          "ratio": 0.375,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "finish_resim",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "countdown-too-fast",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 6,
+            "observedMax": 6,
+            "utilisation": 0.0312,
+            "verdict": "faster_than_declared"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 870,
+            "observedMax": 870,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 1,
+        "unused": 5
+      },
+      "tickrate": {
+        "traceId": "countdown-too-fast",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 18,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 1152 ticks in 18000 ms"
+      }
+    }
+  },
+  {
+    "id": "resume-then-end",
+    "title": "Match ends from the paused state",
+    "column": "blocking",
+    "severity": "critical",
+    "summary": "Pausing is legal. Ending the match from paused has no rule at all.",
+    "trace": {
+      "id": "resume-then-end",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 960,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 400,
+          "target": "paused",
+          "note": ""
+        },
+        {
+          "tick": 700,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "resume-then-end",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 960,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 960,
+        "eventsObserved": 4,
+        "violations": [
+          {
+            "code": "UNDECLARED_TRANSITION",
+            "tick": 700,
+            "state": "paused",
+            "target": "ended",
+            "rule": null,
+            "ticksInState": 300,
+            "message": "no rule permits 'paused' -> 'ended'; the table allows 'live'"
+          }
+        ],
+        "firstViolation": {
+          "code": "UNDECLARED_TRANSITION",
+          "tick": 700,
+          "state": "paused",
+          "target": "ended",
+          "rule": null,
+          "ticksInState": 300,
+          "message": "no rule permits 'paused' -> 'ended'; the table allows 'live'"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 400,
+            "state": "paused",
+            "ticksInState": 184,
+            "via": "pause_match",
+            "viaIndex": 4,
+            "legal": true
+          },
+          {
+            "tick": 700,
+            "state": "ended",
+            "ticksInState": 300,
+            "via": null,
+            "viaIndex": null,
+            "legal": false
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 3,
+          "ratio": 0.375,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "end_match",
+            "finish_resim",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "resume-then-end",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 184,
+            "observedMax": 184,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 5
+      },
+      "tickrate": {
+        "traceId": "resume-then-end",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 15,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 960 ticks in 15000 ms"
+      }
+    }
+  },
+  {
+    "id": "pause-twice",
+    "title": "pause_match taken twice in one match",
+    "column": "blocking",
+    "severity": "minor",
+    "summary": "The rule is declared once-only, and the trace takes it twice.",
+    "trace": {
+      "id": "pause-twice",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 1920,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 300,
+          "target": "paused",
+          "note": ""
+        },
+        {
+          "tick": 700,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 760,
+          "target": "paused",
+          "note": ""
+        },
+        {
+          "tick": 1200,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 1500,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        },
+        {
+          "tick": 1024,
+          "ms": 16000
+        },
+        {
+          "tick": 1088,
+          "ms": 17000
+        },
+        {
+          "tick": 1152,
+          "ms": 18000
+        },
+        {
+          "tick": 1216,
+          "ms": 19000
+        },
+        {
+          "tick": 1280,
+          "ms": 20000
+        },
+        {
+          "tick": 1344,
+          "ms": 21000
+        },
+        {
+          "tick": 1408,
+          "ms": 22000
+        },
+        {
+          "tick": 1472,
+          "ms": 23000
+        },
+        {
+          "tick": 1536,
+          "ms": 24000
+        },
+        {
+          "tick": 1600,
+          "ms": 25000
+        },
+        {
+          "tick": 1664,
+          "ms": 26000
+        },
+        {
+          "tick": 1728,
+          "ms": 27000
+        },
+        {
+          "tick": 1792,
+          "ms": 28000
+        },
+        {
+          "tick": 1856,
+          "ms": 29000
+        },
+        {
+          "tick": 1920,
+          "ms": 30000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "pause-twice",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 1920,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 1920,
+        "eventsObserved": 7,
+        "violations": [
+          {
+            "code": "REPEAT_TRANSITION",
+            "tick": 760,
+            "state": "live",
+            "target": "paused",
+            "rule": "pause_match",
+            "ticksInState": 60,
+            "message": "rule 'pause_match' is declared once-only but was taken more than once"
+          }
+        ],
+        "firstViolation": {
+          "code": "REPEAT_TRANSITION",
+          "tick": 760,
+          "state": "live",
+          "target": "paused",
+          "rule": "pause_match",
+          "ticksInState": 60,
+          "message": "rule 'pause_match' is declared once-only but was taken more than once"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 300,
+            "state": "paused",
+            "ticksInState": 84,
+            "via": "pause_match",
+            "viaIndex": 4,
+            "legal": true
+          },
+          {
+            "tick": 700,
+            "state": "live",
+            "ticksInState": 400,
+            "via": "resume_match",
+            "viaIndex": 5,
+            "legal": true
+          },
+          {
+            "tick": 760,
+            "state": "paused",
+            "ticksInState": 60,
+            "via": "pause_match",
+            "viaIndex": 4,
+            "legal": false
+          },
+          {
+            "tick": 1200,
+            "state": "live",
+            "ticksInState": 440,
+            "via": "resume_match",
+            "viaIndex": 5,
+            "legal": true
+          },
+          {
+            "tick": 1500,
+            "state": "ended",
+            "ticksInState": 300,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 5,
+          "ratio": 0.625,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "finish_resim"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "pause-twice",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 2,
+            "observedMin": 60,
+            "observedMax": 84,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 2,
+            "observedMin": 400,
+            "observedMax": 440,
+            "utilisation": 0.0458,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 300,
+            "observedMax": 300,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 3
+      },
+      "tickrate": {
+        "traceId": "pause-twice",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 30,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 1920 ticks in 30000 ms"
+      }
+    }
+  },
+  {
+    "id": "terminal-exit",
+    "title": "Server restarts a finished match",
+    "column": "blocking",
+    "severity": "critical",
+    "summary": "ended is terminal; leaving it should be impossible.",
+    "trace": {
+      "id": "terminal-exit",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 1200,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 900,
+          "target": "ended",
+          "note": ""
+        },
+        {
+          "tick": 960,
+          "target": "lobby",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        },
+        {
+          "tick": 704,
+          "ms": 11000
+        },
+        {
+          "tick": 768,
+          "ms": 12000
+        },
+        {
+          "tick": 832,
+          "ms": 13000
+        },
+        {
+          "tick": 896,
+          "ms": 14000
+        },
+        {
+          "tick": 960,
+          "ms": 15000
+        },
+        {
+          "tick": 1024,
+          "ms": 16000
+        },
+        {
+          "tick": 1088,
+          "ms": 17000
+        },
+        {
+          "tick": 1152,
+          "ms": 18000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "terminal-exit",
+        "tableId": "skirmish-64",
+        "ok": false,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 1200,
+        "startState": "lobby",
+        "endState": "lobby",
+        "ticksElapsed": 1200,
+        "eventsObserved": 4,
+        "violations": [
+          {
+            "code": "TERMINAL_EXIT",
+            "tick": 960,
+            "state": "ended",
+            "target": "lobby",
+            "rule": null,
+            "ticksInState": 60,
+            "message": "state 'ended' is terminal, so leaving it is not a legal move"
+          },
+          {
+            "code": "UNDECLARED_TRANSITION",
+            "tick": 960,
+            "state": "ended",
+            "target": "lobby",
+            "rule": null,
+            "ticksInState": 60,
+            "message": "no rule permits 'ended' -> 'lobby'; the table allows no outgoing transitions"
+          }
+        ],
+        "firstViolation": {
+          "code": "TERMINAL_EXIT",
+          "tick": 960,
+          "state": "ended",
+          "target": "lobby",
+          "rule": null,
+          "ticksInState": 60,
+          "message": "state 'ended' is terminal, so leaving it is not a legal move"
+        },
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 900,
+            "state": "ended",
+            "ticksInState": 684,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          },
+          {
+            "tick": 960,
+            "state": "lobby",
+            "ticksInState": 60,
+            "via": null,
+            "viaIndex": null,
+            "legal": false
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 3,
+          "ratio": 0.375,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "finish_resim",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "terminal-exit",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 684,
+            "observedMax": 684,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 5
+      },
+      "tickrate": {
+        "traceId": "terminal-exit",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 18,
+        "minHz": 64.0,
+        "medianHz": 64.0,
+        "maxHz": 64.0,
+        "jitterHz": 0.0,
+        "jitterPpm": 0,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 1152 ticks in 18000 ms"
+      }
+    }
+  },
+  {
+    "id": "tick-drift",
+    "title": "Server delivering 58 Hz against a declared 64 Hz",
+    "column": "captured",
+    "severity": "major",
+    "summary": "Every budget is nominally satisfied while the server runs 9% slow.",
+    "trace": {
+      "id": "tick-drift",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 1920,
+      "events": [
+        {
+          "tick": 24,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 216,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 1200,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 64,
+          "ms": 1103
+        },
+        {
+          "tick": 128,
+          "ms": 2207
+        },
+        {
+          "tick": 192,
+          "ms": 3310
+        },
+        {
+          "tick": 256,
+          "ms": 4414
+        },
+        {
+          "tick": 320,
+          "ms": 5517
+        },
+        {
+          "tick": 384,
+          "ms": 6621
+        },
+        {
+          "tick": 448,
+          "ms": 7724
+        },
+        {
+          "tick": 512,
+          "ms": 8828
+        },
+        {
+          "tick": 576,
+          "ms": 9931
+        },
+        {
+          "tick": 640,
+          "ms": 11034
+        },
+        {
+          "tick": 704,
+          "ms": 12138
+        },
+        {
+          "tick": 768,
+          "ms": 13241
+        },
+        {
+          "tick": 832,
+          "ms": 14345
+        },
+        {
+          "tick": 896,
+          "ms": 15448
+        },
+        {
+          "tick": 960,
+          "ms": 16552
+        },
+        {
+          "tick": 1024,
+          "ms": 17655
+        },
+        {
+          "tick": 1088,
+          "ms": 18759
+        },
+        {
+          "tick": 1152,
+          "ms": 19862
+        },
+        {
+          "tick": 1216,
+          "ms": 20966
+        },
+        {
+          "tick": 1280,
+          "ms": 22069
+        },
+        {
+          "tick": 1344,
+          "ms": 23172
+        },
+        {
+          "tick": 1408,
+          "ms": 24276
+        },
+        {
+          "tick": 1472,
+          "ms": 25379
+        },
+        {
+          "tick": 1536,
+          "ms": 26483
+        },
+        {
+          "tick": 1600,
+          "ms": 27586
+        },
+        {
+          "tick": 1664,
+          "ms": 28690
+        },
+        {
+          "tick": 1728,
+          "ms": 29793
+        },
+        {
+          "tick": 1792,
+          "ms": 30897
+        },
+        {
+          "tick": 1856,
+          "ms": 32000
+        },
+        {
+          "tick": 1920,
+          "ms": 33103
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "tick-drift",
+        "tableId": "skirmish-64",
+        "ok": true,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 1920,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 1920,
+        "eventsObserved": 3,
+        "violations": [],
+        "firstViolation": null,
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 24,
+            "state": "countdown",
+            "ticksInState": 24,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 216,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 1200,
+            "state": "ended",
+            "ticksInState": 984,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 3,
+          "ratio": 0.375,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "finish_resim",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "tick-drift",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 24,
+            "observedMax": 24,
+            "utilisation": 0.1333,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 984,
+            "observedMax": 984,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 5
+      },
+      "tickrate": {
+        "traceId": "tick-drift",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 58.0008,
+        "driftPpm": -93738,
+        "driftRatio": 0.9063,
+        "samples": 30,
+        "minHz": 57.971,
+        "medianHz": 58.0236,
+        "maxHz": 58.0236,
+        "jitterHz": 0.0526,
+        "jitterPpm": 907,
+        "verdict": "drifting",
+        "note": "effective 58.0008 Hz against a declared 64 Hz (15.625 ms per tick) over 1920 ticks in 33103 ms"
+      }
+    }
+  },
+  {
+    "id": "jittery-frames",
+    "title": "Mean rate on target, no individual frame is",
+    "column": "captured",
+    "severity": "minor",
+    "summary": "Alternating 50 ms and 75 ms gaps average to a perfect 64 Hz budget.",
+    "trace": {
+      "id": "jittery-frames",
+      "tableId": "skirmish-64",
+      "startTick": 0,
+      "endTick": 640,
+      "events": [
+        {
+          "tick": 12,
+          "target": "countdown",
+          "note": ""
+        },
+        {
+          "tick": 204,
+          "target": "live",
+          "note": ""
+        },
+        {
+          "tick": 400,
+          "target": "ended",
+          "note": ""
+        }
+      ],
+      "anchors": [
+        {
+          "tick": 0,
+          "ms": 0
+        },
+        {
+          "tick": 4,
+          "ms": 50
+        },
+        {
+          "tick": 8,
+          "ms": 125
+        },
+        {
+          "tick": 12,
+          "ms": 175
+        },
+        {
+          "tick": 16,
+          "ms": 250
+        },
+        {
+          "tick": 20,
+          "ms": 300
+        },
+        {
+          "tick": 24,
+          "ms": 375
+        },
+        {
+          "tick": 28,
+          "ms": 425
+        },
+        {
+          "tick": 32,
+          "ms": 500
+        },
+        {
+          "tick": 36,
+          "ms": 550
+        },
+        {
+          "tick": 40,
+          "ms": 625
+        },
+        {
+          "tick": 44,
+          "ms": 675
+        },
+        {
+          "tick": 48,
+          "ms": 750
+        },
+        {
+          "tick": 52,
+          "ms": 800
+        },
+        {
+          "tick": 56,
+          "ms": 875
+        },
+        {
+          "tick": 60,
+          "ms": 925
+        },
+        {
+          "tick": 64,
+          "ms": 1000
+        },
+        {
+          "tick": 68,
+          "ms": 1050
+        },
+        {
+          "tick": 72,
+          "ms": 1125
+        },
+        {
+          "tick": 76,
+          "ms": 1175
+        },
+        {
+          "tick": 80,
+          "ms": 1250
+        },
+        {
+          "tick": 84,
+          "ms": 1300
+        },
+        {
+          "tick": 88,
+          "ms": 1375
+        },
+        {
+          "tick": 92,
+          "ms": 1425
+        },
+        {
+          "tick": 96,
+          "ms": 1500
+        },
+        {
+          "tick": 100,
+          "ms": 1550
+        },
+        {
+          "tick": 104,
+          "ms": 1625
+        },
+        {
+          "tick": 108,
+          "ms": 1675
+        },
+        {
+          "tick": 112,
+          "ms": 1750
+        },
+        {
+          "tick": 116,
+          "ms": 1800
+        },
+        {
+          "tick": 120,
+          "ms": 1875
+        },
+        {
+          "tick": 124,
+          "ms": 1925
+        },
+        {
+          "tick": 128,
+          "ms": 2000
+        },
+        {
+          "tick": 132,
+          "ms": 2050
+        },
+        {
+          "tick": 136,
+          "ms": 2125
+        },
+        {
+          "tick": 140,
+          "ms": 2175
+        },
+        {
+          "tick": 144,
+          "ms": 2250
+        },
+        {
+          "tick": 148,
+          "ms": 2300
+        },
+        {
+          "tick": 152,
+          "ms": 2375
+        },
+        {
+          "tick": 156,
+          "ms": 2425
+        },
+        {
+          "tick": 160,
+          "ms": 2500
+        },
+        {
+          "tick": 164,
+          "ms": 2550
+        },
+        {
+          "tick": 168,
+          "ms": 2625
+        },
+        {
+          "tick": 172,
+          "ms": 2675
+        },
+        {
+          "tick": 176,
+          "ms": 2750
+        },
+        {
+          "tick": 180,
+          "ms": 2800
+        },
+        {
+          "tick": 184,
+          "ms": 2875
+        },
+        {
+          "tick": 188,
+          "ms": 2925
+        },
+        {
+          "tick": 192,
+          "ms": 3000
+        },
+        {
+          "tick": 196,
+          "ms": 3050
+        },
+        {
+          "tick": 200,
+          "ms": 3125
+        },
+        {
+          "tick": 204,
+          "ms": 3175
+        },
+        {
+          "tick": 208,
+          "ms": 3250
+        },
+        {
+          "tick": 212,
+          "ms": 3300
+        },
+        {
+          "tick": 216,
+          "ms": 3375
+        },
+        {
+          "tick": 220,
+          "ms": 3425
+        },
+        {
+          "tick": 224,
+          "ms": 3500
+        },
+        {
+          "tick": 228,
+          "ms": 3550
+        },
+        {
+          "tick": 232,
+          "ms": 3625
+        },
+        {
+          "tick": 236,
+          "ms": 3675
+        },
+        {
+          "tick": 240,
+          "ms": 3750
+        },
+        {
+          "tick": 244,
+          "ms": 3800
+        },
+        {
+          "tick": 248,
+          "ms": 3875
+        },
+        {
+          "tick": 252,
+          "ms": 3925
+        },
+        {
+          "tick": 256,
+          "ms": 4000
+        },
+        {
+          "tick": 260,
+          "ms": 4050
+        },
+        {
+          "tick": 264,
+          "ms": 4125
+        },
+        {
+          "tick": 268,
+          "ms": 4175
+        },
+        {
+          "tick": 272,
+          "ms": 4250
+        },
+        {
+          "tick": 276,
+          "ms": 4300
+        },
+        {
+          "tick": 280,
+          "ms": 4375
+        },
+        {
+          "tick": 284,
+          "ms": 4425
+        },
+        {
+          "tick": 288,
+          "ms": 4500
+        },
+        {
+          "tick": 292,
+          "ms": 4550
+        },
+        {
+          "tick": 296,
+          "ms": 4625
+        },
+        {
+          "tick": 300,
+          "ms": 4675
+        },
+        {
+          "tick": 304,
+          "ms": 4750
+        },
+        {
+          "tick": 308,
+          "ms": 4800
+        },
+        {
+          "tick": 312,
+          "ms": 4875
+        },
+        {
+          "tick": 316,
+          "ms": 4925
+        },
+        {
+          "tick": 320,
+          "ms": 5000
+        },
+        {
+          "tick": 324,
+          "ms": 5050
+        },
+        {
+          "tick": 328,
+          "ms": 5125
+        },
+        {
+          "tick": 332,
+          "ms": 5175
+        },
+        {
+          "tick": 336,
+          "ms": 5250
+        },
+        {
+          "tick": 340,
+          "ms": 5300
+        },
+        {
+          "tick": 344,
+          "ms": 5375
+        },
+        {
+          "tick": 348,
+          "ms": 5425
+        },
+        {
+          "tick": 352,
+          "ms": 5500
+        },
+        {
+          "tick": 356,
+          "ms": 5550
+        },
+        {
+          "tick": 360,
+          "ms": 5625
+        },
+        {
+          "tick": 364,
+          "ms": 5675
+        },
+        {
+          "tick": 368,
+          "ms": 5750
+        },
+        {
+          "tick": 372,
+          "ms": 5800
+        },
+        {
+          "tick": 376,
+          "ms": 5875
+        },
+        {
+          "tick": 380,
+          "ms": 5925
+        },
+        {
+          "tick": 384,
+          "ms": 6000
+        },
+        {
+          "tick": 388,
+          "ms": 6050
+        },
+        {
+          "tick": 392,
+          "ms": 6125
+        },
+        {
+          "tick": 396,
+          "ms": 6175
+        },
+        {
+          "tick": 400,
+          "ms": 6250
+        },
+        {
+          "tick": 404,
+          "ms": 6300
+        },
+        {
+          "tick": 408,
+          "ms": 6375
+        },
+        {
+          "tick": 412,
+          "ms": 6425
+        },
+        {
+          "tick": 416,
+          "ms": 6500
+        },
+        {
+          "tick": 420,
+          "ms": 6550
+        },
+        {
+          "tick": 424,
+          "ms": 6625
+        },
+        {
+          "tick": 428,
+          "ms": 6675
+        },
+        {
+          "tick": 432,
+          "ms": 6750
+        },
+        {
+          "tick": 436,
+          "ms": 6800
+        },
+        {
+          "tick": 440,
+          "ms": 6875
+        },
+        {
+          "tick": 444,
+          "ms": 6925
+        },
+        {
+          "tick": 448,
+          "ms": 7000
+        },
+        {
+          "tick": 452,
+          "ms": 7050
+        },
+        {
+          "tick": 456,
+          "ms": 7125
+        },
+        {
+          "tick": 460,
+          "ms": 7175
+        },
+        {
+          "tick": 464,
+          "ms": 7250
+        },
+        {
+          "tick": 468,
+          "ms": 7300
+        },
+        {
+          "tick": 472,
+          "ms": 7375
+        },
+        {
+          "tick": 476,
+          "ms": 7425
+        },
+        {
+          "tick": 480,
+          "ms": 7500
+        },
+        {
+          "tick": 484,
+          "ms": 7550
+        },
+        {
+          "tick": 488,
+          "ms": 7625
+        },
+        {
+          "tick": 492,
+          "ms": 7675
+        },
+        {
+          "tick": 496,
+          "ms": 7750
+        },
+        {
+          "tick": 500,
+          "ms": 7800
+        },
+        {
+          "tick": 504,
+          "ms": 7875
+        },
+        {
+          "tick": 508,
+          "ms": 7925
+        },
+        {
+          "tick": 512,
+          "ms": 8000
+        },
+        {
+          "tick": 516,
+          "ms": 8050
+        },
+        {
+          "tick": 520,
+          "ms": 8125
+        },
+        {
+          "tick": 524,
+          "ms": 8175
+        },
+        {
+          "tick": 528,
+          "ms": 8250
+        },
+        {
+          "tick": 532,
+          "ms": 8300
+        },
+        {
+          "tick": 536,
+          "ms": 8375
+        },
+        {
+          "tick": 540,
+          "ms": 8425
+        },
+        {
+          "tick": 544,
+          "ms": 8500
+        },
+        {
+          "tick": 548,
+          "ms": 8550
+        },
+        {
+          "tick": 552,
+          "ms": 8625
+        },
+        {
+          "tick": 556,
+          "ms": 8675
+        },
+        {
+          "tick": 560,
+          "ms": 8750
+        },
+        {
+          "tick": 564,
+          "ms": 8800
+        },
+        {
+          "tick": 568,
+          "ms": 8875
+        },
+        {
+          "tick": 572,
+          "ms": 8925
+        },
+        {
+          "tick": 576,
+          "ms": 9000
+        },
+        {
+          "tick": 580,
+          "ms": 9050
+        },
+        {
+          "tick": 584,
+          "ms": 9125
+        },
+        {
+          "tick": 588,
+          "ms": 9175
+        },
+        {
+          "tick": 592,
+          "ms": 9250
+        },
+        {
+          "tick": 596,
+          "ms": 9300
+        },
+        {
+          "tick": 600,
+          "ms": 9375
+        },
+        {
+          "tick": 604,
+          "ms": 9425
+        },
+        {
+          "tick": 608,
+          "ms": 9500
+        },
+        {
+          "tick": 612,
+          "ms": 9550
+        },
+        {
+          "tick": 616,
+          "ms": 9625
+        },
+        {
+          "tick": 620,
+          "ms": 9675
+        },
+        {
+          "tick": 624,
+          "ms": 9750
+        },
+        {
+          "tick": 628,
+          "ms": 9800
+        },
+        {
+          "tick": 632,
+          "ms": 9875
+        },
+        {
+          "tick": 636,
+          "ms": 9925
+        },
+        {
+          "tick": 640,
+          "ms": 10000
+        }
+      ]
+    },
+    "table": {
+      "id": "skirmish-64",
+      "tickrateHz": 64,
+      "entry": "lobby",
+      "states": [
+        {
+          "name": "lobby",
+          "terminal": false,
+          "description": "waiting for players to ready up"
+        },
+        {
+          "name": "countdown",
+          "terminal": false,
+          "description": "fixed pre-match countdown"
+        },
+        {
+          "name": "live",
+          "terminal": false,
+          "description": "match running"
+        },
+        {
+          "name": "resimulating",
+          "terminal": false,
+          "description": "rollback re-simulation"
+        },
+        {
+          "name": "paused",
+          "terminal": false,
+          "description": "administrative pause"
+        },
+        {
+          "name": "ended",
+          "terminal": true,
+          "description": "terminal"
+        }
+      ],
+      "transitions": [
+        {
+          "id": "begin_countdown",
+          "source": "lobby",
+          "target": "countdown",
+          "minTicks": 0,
+          "maxTicks": 180,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "start_match",
+          "source": "countdown",
+          "target": "live",
+          "minTicks": 192,
+          "maxTicks": 192,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "begin_rollback",
+          "source": "live",
+          "target": "resimulating",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "finish_resim",
+          "source": "resimulating",
+          "target": "live",
+          "minTicks": 1,
+          "maxTicks": 10,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "pause_match",
+          "source": "live",
+          "target": "paused",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "resume_match",
+          "source": "paused",
+          "target": "live",
+          "minTicks": 30,
+          "maxTicks": 9600,
+          "repeatable": true,
+          "guard": ""
+        },
+        {
+          "id": "end_match",
+          "source": "live",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        },
+        {
+          "id": "abandon_match",
+          "source": "lobby",
+          "target": "ended",
+          "minTicks": 0,
+          "maxTicks": null,
+          "repeatable": false,
+          "guard": ""
+        }
+      ]
+    },
+    "expected": {
+      "replay": {
+        "traceId": "jittery-frames",
+        "tableId": "skirmish-64",
+        "ok": true,
+        "tickrateHz": 64,
+        "startTick": 0,
+        "endTick": 640,
+        "startState": "lobby",
+        "endState": "ended",
+        "ticksElapsed": 640,
+        "eventsObserved": 3,
+        "violations": [],
+        "firstViolation": null,
+        "timeline": [
+          {
+            "tick": 0,
+            "state": "lobby",
+            "ticksInState": 0,
+            "via": null,
+            "viaIndex": null,
+            "legal": true
+          },
+          {
+            "tick": 12,
+            "state": "countdown",
+            "ticksInState": 12,
+            "via": "begin_countdown",
+            "viaIndex": 0,
+            "legal": true
+          },
+          {
+            "tick": 204,
+            "state": "live",
+            "ticksInState": 192,
+            "via": "start_match",
+            "viaIndex": 1,
+            "legal": true
+          },
+          {
+            "tick": 400,
+            "state": "ended",
+            "ticksInState": 196,
+            "via": "end_match",
+            "viaIndex": 6,
+            "legal": true
+          }
+        ],
+        "coverage": {
+          "declared": 8,
+          "exercised": 3,
+          "ratio": 0.375,
+          "uncovered": [
+            "abandon_match",
+            "begin_rollback",
+            "finish_resim",
+            "pause_match",
+            "resume_match"
+          ]
+        }
+      },
+      "budgetProfile": {
+        "traceId": "jittery-frames",
+        "tableId": "skirmish-64",
+        "rows": [
+          {
+            "rule": "begin_countdown",
+            "index": 0,
+            "source": "lobby",
+            "target": "countdown",
+            "declaredMin": 0,
+            "declaredMax": 180,
+            "observedCount": 1,
+            "observedMin": 12,
+            "observedMax": 12,
+            "utilisation": 0.0667,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "start_match",
+            "index": 1,
+            "source": "countdown",
+            "target": "live",
+            "declaredMin": 192,
+            "declaredMax": 192,
+            "observedCount": 1,
+            "observedMin": 192,
+            "observedMax": 192,
+            "utilisation": 1.0,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "begin_rollback",
+            "index": 2,
+            "source": "live",
+            "target": "resimulating",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "finish_resim",
+            "index": 3,
+            "source": "resimulating",
+            "target": "live",
+            "declaredMin": 1,
+            "declaredMax": 10,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "pause_match",
+            "index": 4,
+            "source": "live",
+            "target": "paused",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "resume_match",
+            "index": 5,
+            "source": "paused",
+            "target": "live",
+            "declaredMin": 30,
+            "declaredMax": 9600,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          },
+          {
+            "rule": "end_match",
+            "index": 6,
+            "source": "live",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 1,
+            "observedMin": 196,
+            "observedMax": 196,
+            "utilisation": null,
+            "verdict": "within_budget"
+          },
+          {
+            "rule": "abandon_match",
+            "index": 7,
+            "source": "lobby",
+            "target": "ended",
+            "declaredMin": 0,
+            "declaredMax": null,
+            "observedCount": 0,
+            "observedMin": null,
+            "observedMax": null,
+            "utilisation": null,
+            "verdict": "unused"
+          }
+        ],
+        "overruns": 0,
+        "underruns": 0,
+        "unused": 5
+      },
+      "tickrate": {
+        "traceId": "jittery-frames",
+        "tableId": "skirmish-64",
+        "declaredHz": 64,
+        "tickBudgetMs": 15.625,
+        "effectiveHz": 64.0,
+        "driftPpm": 0,
+        "driftRatio": 1.0,
+        "samples": 160,
+        "minHz": 53.3333,
+        "medianHz": 66.6667,
+        "maxHz": 80.0,
+        "jitterHz": 26.6667,
+        "jitterPpm": 500000,
+        "verdict": "on_rate",
+        "note": "effective 64.0 Hz against a declared 64 Hz (15.625 ms per tick) over 640 ticks in 10000 ms"
+      }
+    }
+  }
+]
