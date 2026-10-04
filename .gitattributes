@@ -1,0 +1,21 @@
+# Normalise line endings in the repository, and check them out as LF everywhere.
+#
+# This is not cosmetic. `services/engine/tests/test_golden.py` asserts that the committed
+# corpus contains no CRLF, because the corpus is byte-compared against freshly generated
+# output. On a Windows clone with `core.autocrlf=true` those bytes would differ and the test
+# would fail on line endings rather than on a real behavioural change - which is precisely the
+# kind of failure that teaches people to ignore a red test.
+* text=auto eol=lf
+
+# Binary assets, never touched.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+
+# Lockfiles are generated; keep them LF and never let an editor rewrite them.
+package-lock.json -diff
+uv.lock -diff
