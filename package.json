@@ -31,7 +31,7 @@
     "prepare": "prettier --write .",
     "build": "turbo run build",
     "typecheck": "turbo run typecheck",
-    "test": "turbo run test",
+    "test": "turbo run test --concurrency=4",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",

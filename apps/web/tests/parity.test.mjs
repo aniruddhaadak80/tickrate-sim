@@ -127,6 +127,25 @@ test('the engine this file claims to mirror is where it says it is', () => {
   assert.ok(existsSync(join(REPO, 'services', 'engine', 'tests', 'test_golden.py')))
 })
 
+test('the web contract exports the same type names as the engine contract', () => {
+  // `apps/web/lib/engine-contract.ts` is a deliberate duplicate of `packages/core/src/contract.ts`,
+  // because Vercel builds this app in isolation and a workspace import does not resolve there.
+  // Behaviour is not duplicated - the parity tests above cover that - but the *shape* is, so
+  // this asserts the two files still describe the same set of types. A field added to one and
+  // not the other becomes visible here rather than as a confusing type error much later.
+  const names = (source) =>
+    new Set([...source.matchAll(/^export\s+(?:interface|type)\s+([A-Za-z0-9_]+)/gm)].map((match) => match[1]))
+
+  const engine = names(readFileSync(join(REPO, 'packages', 'core', 'src', 'contract.ts'), 'utf8'))
+  const web = names(readFileSync(join(WEB, 'lib', 'engine-contract.ts'), 'utf8'))
+
+  assert.ok(engine.size > 10, `only found ${engine.size} exported types in the engine contract`)
+  const missing = [...engine].filter((name) => !web.has(name)).sort()
+  const extra = [...web].filter((name) => !engine.has(name)).sort()
+  assert.deepEqual(missing, [], `the web contract is missing: ${missing.join(', ')}`)
+  assert.deepEqual(extra, [], `the web contract has types the engine does not: ${extra.join(', ')}`)
+})
+
 test('the corpus is bundled, not fetched at runtime', () => {
   // The deployed app must not depend on a network call or a filesystem it does not control.
   // A static import of the JSON is what makes the page work on a cold Vercel build.

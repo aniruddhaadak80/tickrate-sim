@@ -1,4 +1,4 @@
-import type { ReplayReport, TransitionTable } from '@tickratesim/core'
+import type { ReplayReport, TransitionTable } from '@/lib/engine-contract'
 
 /**
  * The tick ruler: this product's one signature visual element.

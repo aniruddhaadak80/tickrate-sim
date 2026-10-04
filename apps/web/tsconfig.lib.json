@@ -9,8 +9,7 @@
     "moduleResolution": "bundler",
     "declaration": false,
     "incremental": false,
-    "jsx": "preserve",
-    "paths": {}
+    "jsx": "preserve"
   },
-  "include": ["lib/engine.ts"]
+  "include": ["lib/engine.ts", "lib/engine-contract.ts"]
 }

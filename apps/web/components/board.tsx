@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import type { BudgetProfile, ReplayReport, TickrateStats, TransitionTable } from '@tickratesim/core'
+import type { BudgetProfile, ReplayReport, TickrateStats, TransitionTable } from '@/lib/engine-contract'
 import { Inspector } from './inspector'
 
 /**

@@ -11,7 +11,7 @@ import type {
   TransitionRule,
   TransitionTable,
   Violation,
-} from '@tickratesim/core'
+} from '@/lib/engine-contract'
 
 /**
  * A TypeScript mirror of the Python walk, for the browser.

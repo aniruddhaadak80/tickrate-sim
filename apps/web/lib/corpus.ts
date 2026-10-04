@@ -1,4 +1,4 @@
-import type { TableDiff, TableValidation, TickTrace, TransitionTable } from '@tickratesim/core'
+import type { TableDiff, TableValidation, TickTrace, TransitionTable } from '@/lib/engine-contract'
 import casesJson from '@/data/cases.json'
 import tablesJson from '@/data/tables.json'
 import diffsJson from '@/data/table-diffs.json'

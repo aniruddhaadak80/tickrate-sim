@@ -1,4 +1,4 @@
-import type { BudgetProfile, ReplayReport, TickrateStats } from '@tickratesim/core'
+import type { BudgetProfile, ReplayReport, TickrateStats } from '@/lib/engine-contract'
 import { TickRuler } from './tick-ruler'
 
 /**

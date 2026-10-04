@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import type { TableValidation } from '@tickratesim/core'
+import type { TableValidation } from '@/lib/engine-contract'
 
 /**
  * The product's identity and its surface manifest, in one typed place.
