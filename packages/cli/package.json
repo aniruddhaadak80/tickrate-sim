@@ -25,7 +25,7 @@
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
   },
   "dependencies": {
-    "commander": "^14.0.0",
+    "commander": "^15.0.0",
     "@tickratesim/core": "0.1.0",
     "@tickratesim/skills": "0.1.0",
     "@tickratesim/plugins": "0.1.0",
