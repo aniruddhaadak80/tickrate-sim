@@ -11,7 +11,7 @@
     "test": "npm run build:lib && node --test tests/*.test.mjs"
   },
   "dependencies": {
-    "next": "^15.5.28",
+    "next": "^16.4.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
